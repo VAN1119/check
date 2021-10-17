@@ -9,50 +9,54 @@
 </head>
 <body>
     <header>
-        <h1>〇〇診断</h1>
+        <h1>犬好きか猫好きか自分で決められない人診断</h1>
     </header>
     <main>
+        <p>左から「思う」「やや思う」「悩ましい」「やや思わない」「思わない」です。</p>
         <form id="ask" name="ask" onsubmit="check(); return false;">
             <ul>
                 <li>
-                    <p>質問4</p>
+                    <p>犬が好きだ</p>
                     <div class="ans">
-                        Yes
-                        <label><input type="radio" name="q3" value="A"></label>
-                        <label><input type="radio" name="q3" value="A"></label>
-                        <label><input type="radio" name="q3" value="B"></label>
-                        <label><input type="radio" name="q3" value="C"></label>
-                        <label><input type="radio" name="q3" value="C"></label>
-                        No
+                        思う
+                        <label><input type="radio" name="q0" value="A"
+                            style="transform: scale(1.2)";></label>
+                        <label><input type="radio" name="q0" value="B"></label>
+                        <label><input type="radio" name="q0" value="C" style="transform: scale(0.8)"></label>
+                        <label><input type="radio" name="q0" value="D"></label>
+                        <label><input type="radio" name="q0" value="E" style="transform: scale(1.2)"></label>
+                        思わない
                     </div>
                 </li>
                 <li>
-                    <p>質問5</p>
+                    <p>猫が好きだ</p>
                     <div class="ans">
-                        Yes
-                        <label><input type="radio" name="q4" value="A"></label>
-                        <label><input type="radio" name="q4" value="A"></label>
-                        <label><input type="radio" name="q4" value="B"></label>
-                        <label><input type="radio" name="q4" value="C"></label>
-                        <label><input type="radio" name="q4" value="C"></label>
-                        No
+                        思う
+                        <label><input type="radio" name="q1" value="E"
+                            style="transform: scale(1.2)";></label>
+                        <label><input type="radio" name="q1" value="D"></label>
+                        <label><input type="radio" name="q1" value="C" style="transform: scale(0.8)"></label>
+                        <label><input type="radio" name="q1" value="B"></label>
+                        <label><input type="radio" name="q1" value="A" style="transform: scale(1.2)"></label>
+                        思わない
                     </div>
                 </li>
                 <li>
-                    <p>質問6</p>
+                    <p>ハムスターが好きだ</p>
                     <div class="ans">
-                        Yes
-                        <label><input type="radio" name="q5" value="A"></label>
-                        <label><input type="radio" name="q5" value="A"></label>
-                        <label><input type="radio" name="q5" value="B"></label>
-                        <label><input type="radio" name="q5" value="C"></label>
-                        <label><input type="radio" name="q5" value="C"></label>
-                        No
+                        思う
+                        <label><input type="radio" name="q2" value="B"
+                            style="transform: scale(1.2)";></label>
+                        <label><input type="radio" name="q2" value="B"></label>
+                        <label><input type="radio" name="q2" value="B" style="transform: scale(0.8)"></label>
+                        <label><input type="radio" name="q2" value="B"></label>
+                        <label><input type="radio" name="q2" value="B" style="transform: scale(1.2)"></label>
+                        思わない
                     </div>
                 </li>
             </ul>
             <div class="last">
-                <input type="submit" value="判定" class="hantei" />
+                <input type="submit" value="判定" class="judge" />
             </div>
             <div class="next">
                 <a href="page1.html"></a>

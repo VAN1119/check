@@ -6,6 +6,26 @@ function check() {
     var aaa = 0;
     var bbb = 0;
     var ccc = 0;
+
+    /*
+    // for文でqの配列の要素番号をaaaに足し込む
+    for (let i = 0; i < ask.length; i++) {
+        for (let j = 0; j < ask[i].length; j++) {
+            if(ask[i][j].checked) {
+                aaa += ask[i][j];
+            }
+            break;
+        }
+    }
+    if (aaa < 7) {
+        window.location.href = 'a.html';
+    } else if (aaa > 7) {
+        window.location.href = 'b.html'; // 通常の遷移
+    } else {
+        window.location.href = 'c.html'; // 通常の遷移
+        alert(ask[0][0]);
+    }
+    */
     //どのラジオボタンが選択されたか判定し、点数を加算
     for (let n = 0; n < q.length; n++) {
         for (let i = 0; i < q[n].length; i++) {
@@ -22,6 +42,7 @@ function check() {
             }
         }
     }
+    
     //結果の条件分岐
     var message = "";
     if (aaa > bbb && aaa > ccc) {
