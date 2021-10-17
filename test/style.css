@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+/* タイトル */
+h1 {
+  font-size: 50px;
+  text-align: center;
+  background-color: rgb(80, 136, 211);
+  color: white;
+}
+
+ul li{
+  list-style: none;
+  width: 600px;
+  margin: 0 auto;
+  border-bottom: 5px solid rgb(83, 80, 80);
+  /* 目安枠線
+  background-color:rgb(80, 136, 211);
+  */
+}
+
+ul li p {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+label {
+  text-align: center;
+  transform: scale(1.8);
+  /* 目安枠線
+  border: 1px solid #000; */
+}
+
+.last {
+  text-align: center;
+}
+
+.ans {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  font-size: 25px;
+  /* 目安枠線
+  border: 1px solid red; */
+  
+}
+
+.judge {
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #006;
+  color: white;
+  box-shadow: 6px 6px 3px #666666;  /* 影の設定 */
+  border: 2px solid #000066;
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.judge:hover {
+  box-shadow: none;        /* カーソル時の影消去 */
+  color: #000066;     /* 背景色     */
+  background-color: #ffffff;     /* 文字色     */
+}
+
+/* フッターのデザイン */
+footer {
+  color: white;
+  background-color: black;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}

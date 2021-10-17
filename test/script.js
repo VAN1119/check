@@ -21,9 +21,9 @@ function check() {
             }
         }
     }
-    if (aaa > 9) {
+    if (aaa < 9) {
         window.location.href = 'a.html';
-    } else if (aaa < 9) {
+    } else if (aaa > 9) {
         window.location.href = 'b.html'; // 通常の遷移
     } else {
         window.location.href = 'c.html'; // 通常の遷移
