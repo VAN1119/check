@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>診断</title>
+</head>
+<body>
+    <header>
+        <h1>〇〇診断</h1>
+    </header>
+    <main>
+        <form id="ask" name="ask" onsubmit="check(); return false;">
+            <ul>
+                <li>
+                    <p>質問4</p>
+                    <div class="ans">
+                        Yes
+                        <label><input type="radio" name="q3" value="A"></label>
+                        <label><input type="radio" name="q3" value="A"></label>
+                        <label><input type="radio" name="q3" value="B"></label>
+                        <label><input type="radio" name="q3" value="C"></label>
+                        <label><input type="radio" name="q3" value="C"></label>
+                        No
+                    </div>
+                </li>
+                <li>
+                    <p>質問5</p>
+                    <div class="ans">
+                        Yes
+                        <label><input type="radio" name="q4" value="A"></label>
+                        <label><input type="radio" name="q4" value="A"></label>
+                        <label><input type="radio" name="q4" value="B"></label>
+                        <label><input type="radio" name="q4" value="C"></label>
+                        <label><input type="radio" name="q4" value="C"></label>
+                        No
+                    </div>
+                </li>
+                <li>
+                    <p>質問6</p>
+                    <div class="ans">
+                        Yes
+                        <label><input type="radio" name="q5" value="A"></label>
+                        <label><input type="radio" name="q5" value="A"></label>
+                        <label><input type="radio" name="q5" value="B"></label>
+                        <label><input type="radio" name="q5" value="C"></label>
+                        <label><input type="radio" name="q5" value="C"></label>
+                        No
+                    </div>
+                </li>
+            </ul>
+            <div class="last">
+                <input type="submit" value="判定" class="hantei" />
+            </div>
+            <div class="next">
+                <a href="page1.html"></a>
+            </div>
+        </form>    
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <small>&copy;2021 Ban</small>
+    </footer>
+</body>
+</html>

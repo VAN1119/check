@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>診断</title>
+</head>
+<body>
+    <header>
+        <h1>犬好きか猫好きか自分で決められない人診断</h1>
+    </header>
+    <main>
+        <form id="ask" name="ask" onsubmit="check(); return false;">
+            <ul>
+                <li>
+                    <p>質問1</p>
+                    <div class="ans">
+                        Yes
+                        <label><input type="radio" name="q0" value="A"
+                            style="transform: scale(1.2)";></label>
+                        <label><input type="radio" name="q0" value="A"></label>
+                        <label><input type="radio" name="q0" value="B" style="transform: scale(0.8)"></label>
+                        <label><input type="radio" name="q0" value="C"></label>
+                        <label><input type="radio" name="q0" value="C" style="transform: scale(1.2)"></label>
+                        No
+                    </div>
+                </li>
+                <li>
+                    <p>質問2</p>
+                    <div class="ans">
+                        Yes
+                        <label><input type="radio" name="q1" value="A"
+                            style="transform: scale(1.2)";></label>
+                        <label><input type="radio" name="q1" value="A"></label>
+                        <label><input type="radio" name="q1" value="B" style="transform: scale(0.8)"></label>
+                        <label><input type="radio" name="q1" value="C"></label>
+                        <label><input type="radio" name="q1" value="C" style="transform: scale(1.2)"></label>
+                        No
+                    </div>
+                </li>
+                <li>
+                    <p>質問3</p>
+                    <div class="ans">
+                        Yes
+                        <label><input type="radio" name="q2" value="A"
+                            style="transform: scale(1.2)";></label>
+                        <label><input type="radio" name="q2" value="A"></label>
+                        <label><input type="radio" name="q2" value="B" style="transform: scale(0.8)"></label>
+                        <label><input type="radio" name="q2" value="C"></label>
+                        <label><input type="radio" name="q2" value="C" style="transform: scale(1.2)"></label>
+                        No
+                    </div>
+                </li>
+            </ul>
+            <div class="last">
+                <input type="submit" value="判定" class="judge" />
+            </div>
+            <div class="next">
+                <a href="page1.html"></a>
+            </div>
+        </form>    
+        <script src="script.js"></script>
+    </main>
+    <footer>
+        <small>&copy;2021 Ban</small>
+    </footer>
+</body>
+</html>
