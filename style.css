@@ -80,6 +80,6 @@ footer {
 }
 
 @media (max-width:767px) {
-  li {font-size: 15px;
-      width: 100%; }
+  ul li{width: 350px;}
+  .ans {width: 100%;}
   }
