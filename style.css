@@ -78,3 +78,8 @@ footer {
   margin-top: 50px;
   text-align: center;
 }
+
+@media (max-width:767px) {
+  li {font-size: 15px;
+      width: 100%; }
+  }
