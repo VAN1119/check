@@ -2,6 +2,7 @@ function check() {
     let str = [];
     //ラジオボタンの中身を取得
     const q = [document.ask.q0, document.ask.q1, document.ask.q2];
+    const p = [document.ask2.q3, document.ask2.q4, document.ask2.q5];
     //変数の宣言
     var aaa = 0;
     var bbb = 0;
@@ -21,9 +22,9 @@ function check() {
             }
         }
     }
-    if (aaa < 9) {
+    if (aaa > 18) {
         window.location.href = 'a.html';
-    } else if (aaa > 9) {
+    } else if (aaa < 18) {
         window.location.href = 'b.html'; // 通常の遷移
     } else {
         window.location.href = 'c.html'; // 通常の遷移
